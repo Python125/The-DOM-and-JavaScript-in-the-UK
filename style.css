@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*  {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.banner {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 900px;
+  opacity: 1;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+h1 {
+  color: rgb(73, 192, 231);
+  font-size: 100px;
+  text-shadow: 5px 4px 1px darkblue;
+}
+
+p {
+    font-size: 20px;
+}
+
+.box {
+  background-color: lightgray;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  width: 700px;
+  height: 300px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 5px black;
+  transform: translateX(400%);
+  transition: transform 1.0s ease;
+}
+
+.box img {
+  max-width: 80%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.box.show {
+  transform: translateX(0);
+}
+
+.box.slide-fade-in-left {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slide-fade-in-left 1.0s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.box.slide-fade-in-right {
+  opacity: 0;
+  transform: translateX(100%);
+  animation: slide-fade-in-right 1.0s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-fade-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slide-fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes slide-fade-in {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
