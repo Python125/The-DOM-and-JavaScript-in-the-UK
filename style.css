@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 body {
   background-color: antiquewhite;
   margin: 0;
@@ -45,6 +39,13 @@ p {
     font-size: 20px;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
 .box {
   background-color: lightgray;
   color: black;
@@ -52,7 +53,7 @@ p {
   align-items: center;
   justify-content: center;
   max-width: 700px;
-  width: 700px;
+  width: 500px;
   height: 300px;
   margin-bottom: 50px;
   border-radius: 20px;
