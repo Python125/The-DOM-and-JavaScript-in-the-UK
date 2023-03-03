@@ -35,6 +35,12 @@ h1 {
   text-shadow: 5px 4px 1px darkblue;
 }
 
+
+h2 {
+  color: blue;
+  font-size: 24.5px;
+}
+
 p {
     font-size: 20px;
     max-width: 500px;
@@ -46,6 +52,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  margin: 0;
 }
 
 .box {
