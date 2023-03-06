@@ -43,7 +43,7 @@ h2 {
 
 p {
   font-family: 'Franklin Gothic Medium', sans-serif;
-  font-size: 15px;
+  font-size: 14.5px;
   max-width: 300px;
   width: 300px;
   text-align: left;
@@ -61,8 +61,8 @@ p {
   background-color: lightgray;
   color: black;
   max-width: 500px;
-  width: 454px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   margin-bottom: 50px;
   border-radius: 20px;
   box-shadow: 2px 4px 5px black;
