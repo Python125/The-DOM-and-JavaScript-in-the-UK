@@ -37,12 +37,12 @@ h1 {
 
 h2 {
   color: blue;
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
 }
 
 p {
-    font-size: 20px;
+    font-size: 14px;
     max-width: 500px;
     width: 450px;
 }
