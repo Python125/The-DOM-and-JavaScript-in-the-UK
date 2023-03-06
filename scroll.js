@@ -50,6 +50,6 @@ $(window).scroll(function () {
   });
 });
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   $(".banner-text").css("opacity", 1 - $(window).scrollTop() / 250);
 });
