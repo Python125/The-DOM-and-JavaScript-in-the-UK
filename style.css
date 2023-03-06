@@ -35,10 +35,10 @@ h1 {
   text-shadow: 5px 4px 1px darkblue;
 }
 
-
 h2 {
   color: blue;
-  font-size: 24.5px;
+  font-size: 15px;
+  text-align: center;
 }
 
 p {
@@ -58,7 +58,6 @@ p {
 .box {
   background-color: lightgray;
   color: black;
-  display: flex;
   align-items: center;
   justify-content: center;
   max-width: 500px;
