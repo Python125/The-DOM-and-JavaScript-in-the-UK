@@ -42,10 +42,11 @@ h2 {
 }
 
 p {
-    font-size: 15px;
-    max-width: 300px;
-    width: 300px;
-    text-align: left;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  font-size: 15px;
+  max-width: 300px;
+  width: 300px;
+  text-align: left;
 }
 
 .container {
