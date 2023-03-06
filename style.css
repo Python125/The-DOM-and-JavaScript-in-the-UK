@@ -45,6 +45,7 @@ p {
     font-size: 14px;
     max-width: 300px;
     width: 300px;
+    text-align: center;
 }
 
 .container {
