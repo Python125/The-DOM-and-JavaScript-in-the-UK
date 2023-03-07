@@ -33,11 +33,18 @@ h1 {
   color: rgb(73, 192, 231);
   font-size: 85px;
   text-shadow: 5px 4px 1px darkblue;
+  text-align: center;
 }
 
 h2 {
   color: blue;
+  font-size: 50px;
+  text-align: center;
+}
+
+h3 {
   font-size: 16px;
+  color: rgb(28, 92, 211);
   text-align: center;
 }
 
