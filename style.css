@@ -32,25 +32,25 @@ body {
 #background1 {
   background-image: url(https://winetravelandsong.com/wp-content/uploads/2017/06/Beatles-Statue-e1625847029295.jpg);
   background-repeat: no-repeat, repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #background2 {
   background-image: url(https://www.biggerbolderbaking.com/wp-content/uploads/2019/03/No-knead-English-Muffins-Website-Thumbnail.jpg);
   background-repeat: no-repeat, repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #background3 {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/21/Cheltenham.from.leckhampton.arp.jpg);
   background-repeat: no-repeat, repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #background4 {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/UEFA_Euro_2008_Qualifiers_-_England_v_Estonia.jpg/1200px-UEFA_Euro_2008_Qualifiers_-_England_v_Estonia.jpg);
   background-repeat: no-repeat, repeat;
-  background-size: cover;
+  background-size:contain;
 }
 
 h1 {
@@ -68,7 +68,7 @@ h2 {
 
 h3 {
   font-size: 16px;
-  color: rgb(28, 92, 211);
+  color: rgb(27, 82, 185);
   text-align: center;
 }
 
@@ -92,7 +92,8 @@ p {
 }
 
 .box {
-  color: black;
+  background-color: snow;
+  opacity: 0.88;
   max-width: 450px;
   width: 430px;
   height: 480px;
