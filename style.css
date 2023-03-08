@@ -29,6 +29,10 @@ body {
   transform: translate(-50%);
 }
 
+#background1 {
+  background-image: url(https://winetravelandsong.com/wp-content/uploads/2017/06/Beatles-Statue-e1625847029295.jpg);
+}
+
 h1 {
   color: rgb(73, 192, 231);
   font-size: 85px;
@@ -53,6 +57,12 @@ p {
   font-size: 15px;
 }
 
+.highlight-word-color{
+  color: #206e34;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  font-size: 15px;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -62,10 +72,9 @@ p {
 }
 
 .box {
-  background-color: lightgray;
   color: black;
   max-width: 450px;
-  width: 450px;
+  width: 430px;
   height: 480px;
   margin-bottom: 20px;
   border-radius: 20px;
