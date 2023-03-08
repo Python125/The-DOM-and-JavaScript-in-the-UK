@@ -31,6 +31,8 @@ body {
 
 #background1 {
   background-image: url(https://winetravelandsong.com/wp-content/uploads/2017/06/Beatles-Statue-e1625847029295.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
 }
 
 h1 {
