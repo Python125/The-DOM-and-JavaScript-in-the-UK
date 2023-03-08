@@ -35,6 +35,24 @@ body {
   background-size: cover;
 }
 
+#background2 {
+  background-image: url(https://www.biggerbolderbaking.com/wp-content/uploads/2019/03/No-knead-English-Muffins-Website-Thumbnail.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
+#background3 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/21/Cheltenham.from.leckhampton.arp.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
+#background4 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/UEFA_Euro_2008_Qualifiers_-_England_v_Estonia.jpg/1200px-UEFA_Euro_2008_Qualifiers_-_England_v_Estonia.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
 h1 {
   color: rgb(73, 192, 231);
   font-size: 85px;
@@ -74,6 +92,7 @@ p {
 }
 
 .box {
+  background-color: snow;
   color: black;
   max-width: 450px;
   width: 430px;
