@@ -50,9 +50,8 @@ body {
 }
 
 h1 {
-  color: rgb(93, 214, 255);
+  color: darkblue;
   font-size: 80px;
-  text-shadow: 5px 4px 1px darkblue;
   text-align: center;
 }
 
@@ -89,13 +88,13 @@ h3 {
 
 p {
   font-family: 'Franklin Gothic Medium', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .highlight-word-color{
   color: #206e34;
   font-family: 'Franklin Gothic Medium', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .container {
