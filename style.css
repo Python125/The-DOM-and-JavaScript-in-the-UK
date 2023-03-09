@@ -88,6 +88,85 @@ p {
   font-size: 14px;
 }
 
+@media screen and (min-width: 768px) {
+  .banner {
+    height: 600px;
+    background-size: cover;
+  }
+  
+  #background1 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/St_Georges_Hall_Liverpool_3_%286727529617%29.jpg/1920px-St_Georges_Hall_Liverpool_3_%286727529617%29.jpg);
+    background-size: cover;
+  }
+
+  #background2 {
+    background-image: url(https://chefsavvy.com/wp-content/uploads/diy-english-muffins-500x500.jpg);
+    background-size: cover;
+  }
+
+  #background3 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/21/Cheltenham.from.leckhampton.arp.jpg);
+    background-size: cover;
+  }
+
+  #background4 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/UEFA_Euro_2008_Qualifiers_-_England_v_Estonia.jpg/1200px-UEFA_Euro_2008_Qualifiers_-_England_v_Estonia.jpg);
+    background-size: cover;
+  }
+  
+  h1 {
+    font-size: 120px;
+  }
+  
+  h2 {
+    font-size: 60px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+}
+
+/* CSS for screens with width less than 768px */
+@media screen and (max-width: 767px) {
+  .banner {
+    height: 400px;
+    background-size: cover;
+  }
+  
+  #background1 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/St_Georges_Hall_Liverpool_3_%286727529617%29.jpg/1920px-St_Georges_Hall_Liverpool_3_%286727529617%29.jpg);
+    background-size: cover;
+  }
+
+  #background2 {
+    background-image: url(https://chefsavvy.com/wp-content/uploads/diy-english-muffins-500x500.jpg);
+    background-size: cover;
+  }
+
+  #background3 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/21/Cheltenham.from.leckhampton.arp.jpg);
+    background-size: cover;
+  }
+
+  #background4 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/UEFA_Euro_2008_Qualifiers_-_England_v_Estonia.jpg/1200px-UEFA_Euro_2008_Qualifiers_-_England_v_Estonia.jpg);
+    background-size: cover;
+  }
+  
+  h1 {
+    font-size: 60px;
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
