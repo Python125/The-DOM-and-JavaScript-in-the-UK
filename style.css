@@ -119,6 +119,14 @@ p {
   margin-right: auto;
 }
 
+@media (max-width: 600px) {
+  .box {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+}
+
 .box.show {
   transform: translateX(0);
 }
