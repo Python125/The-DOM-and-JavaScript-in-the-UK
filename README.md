@@ -4,4 +4,4 @@ Here's a neat project giving me a chance to continue to flex my programming musc
 
 This project marked my initial foray into DOM manipulation. I was fascinated by the ability to dynamically alter a webpage's elements. Experimenting with techniques like creating a shrinking hero image and animated text containers significantly enhanced my understanding of JavaScript's power to transform static HTML into interactive experiences.
 
-![gif](/travel-brochure.gif)
+<img src="/travel-brochure.gif" alt="Travel Brochure" width="500px">
