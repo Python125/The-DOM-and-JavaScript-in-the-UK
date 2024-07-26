@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-*  {
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -56,7 +56,7 @@ body {
 }
 
 h1 {
-  color: darkblue;
+  color: #f4cc32;
   font-size: 80px;
   text-align: center;
 }
@@ -64,7 +64,7 @@ h1 {
 .text-overlay {
   position: absolute;
   top: 13%;
-  left: 50%;
+  left: 30%;
   transform: translate(-50%, -50%);
   animation: fade-in 3s ease forwards;
   animation-delay: 100ms;
@@ -84,13 +84,13 @@ h3 {
 }
 
 p {
-  font-family: 'Franklin Gothic Medium', sans-serif;
+  font-family: "Franklin Gothic Medium", sans-serif;
   font-size: 14px;
 }
 
-.highlight-word-color{
+.highlight-word-color {
   color: #206e34;
-  font-family: 'Franklin Gothic Medium', sans-serif;
+  font-family: "Franklin Gothic Medium", sans-serif;
   font-size: 14px;
 }
 
@@ -112,7 +112,7 @@ p {
   border-radius: 20px;
   box-shadow: 2px 4px 5px black;
   transform: translateX(400%);
-  transition: transform 1.0s ease;
+  transition: transform 1s ease;
 }
 
 .box img {
@@ -140,14 +140,14 @@ p {
 .box.slide-fade-in-left {
   opacity: 0;
   transform: translateX(-100%);
-  animation: slide-fade-in-left 1.0s ease-in-out;
+  animation: slide-fade-in-left 1s ease-in-out;
   animation-fill-mode: forwards;
 }
 
 .box.slide-fade-in-right {
   opacity: 0;
   transform: translateX(100%);
-  animation: slide-fade-in-right 1.0s ease-in-out;
+  animation: slide-fade-in-right 1s ease-in-out;
   animation-fill-mode: forwards;
 }
 
