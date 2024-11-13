@@ -36,22 +36,22 @@ body {
 }
 
 #background1 {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/St_Georges_Hall_Liverpool_3_%286727529617%29.jpg/1920px-St_Georges_Hall_Liverpool_3_%286727529617%29.jpg);
+  background-image: url("/images/st-georges-hall-liverpool.jpg");
   background-size: 20%;
 }
 
 #background2 {
-  background-image: url(https://chefsavvy.com/wp-content/uploads/diy-english-muffins-500x500.jpg);
+  background-image: url("/images/english-muffins.jpg");
   background-size: 5%;
 }
 
 #background3 {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/21/Cheltenham.from.leckhampton.arp.jpg);
+  background-image: url("/images/cheltenham.jpg");
   background-size: 20%;
 }
 
 #background4 {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/UEFA_Euro_2008_Qualifiers_-_England_v_Estonia.jpg/1200px-UEFA_Euro_2008_Qualifiers_-_England_v_Estonia.jpg);
+  background-image: url("/images/association-football.jpg");
   background-size: 20%;
 }
 
@@ -104,7 +104,7 @@ p {
 
 .box {
   background-color: snow;
-  opacity: 0.85;
+  opacity: 1;
   max-width: 450px;
   width: 430px;
   height: 480px;
