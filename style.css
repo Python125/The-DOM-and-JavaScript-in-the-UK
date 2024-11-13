@@ -35,9 +35,15 @@ body {
   transform: translate(-50%);
 }
 
+@media (max-width: 3840px) {
+  .banner {
+    height: 1200px;
+  }
+}
+
 #background1 {
   background-image: url("/images/st-georges-hall-liverpool.jpg");
-  background-size: 20%;
+  background-size: 21%;
 }
 
 #background2 {
@@ -115,6 +121,14 @@ p {
   transition: transform 1s ease;
 }
 
+@media (max-width: 600px) {
+  .box {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+}
+
 .box img {
   max-width: 80%;
   height: 100%;
@@ -123,14 +137,6 @@ p {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media (max-width: 600px) {
-  .box {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-  }
 }
 
 .box.show {
