@@ -4,4 +4,6 @@ Here's a neat project giving me a chance to continue to flex my programming musc
 
 This project marked my initial foray into DOM manipulation. I was fascinated by the ability to dynamically alter a webpage's elements. Experimenting with techniques like creating a shrinking hero image and animated text containers significantly enhanced my understanding of JavaScript's power to transform static HTML into interactive experiences.
 
+Experience the features of this project directly in the browser by visiting the live demo [here](https://peppy-profiterole-5b9543.netlify.app/)
+
 <img src="/travel-guide.gif" alt="Travel Guide" width="700px" style="text-align: center">
